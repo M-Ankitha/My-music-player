@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Music Player</title>
+     <!--Linking the CSS stylesheet using extrenal CSS-->
+     <link rel="stylesheet" type="text/css" href="MusicPlayerStyle.css">
+     <!--Font Awesome script for using icons from font awesome-->
+     <script src="https://kit.fontawesome.com/6f0f83005a.js" crossorigin="anonymous"></script>
+     <!--Adds responsiveness to the website-->
+     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1"/>
+</head>
+<!--End of head section-->
+<body>
+
+    <!--Begining of navigation bar section-->
+    <nav>
+        <!--Music Player Logo div-->
+        <div id="music-player-tag">
+         <div id="music-player-logo">
+             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR421SbZTBhmhfGjetghYICsCORyhCiQwix6g&usqp=CAU">
+         </div>
+         <!--Music Player Logo div end-->
+ <!--Music Player Title-->
+ <div id="music-player-name">
+  Bueno<br/><b>Music Player</b>
+</div>
+</div>
+<!--Music Player Title div end-->
+<div id="fav-name">
+  Favourites </div>
+<!--Search Bar div-->
+<!-- <div id="search-bar-utility"> -->
+  <div id="search-bar">
+      <form>
+          <!--Search Icon-->
+         <i id="search-icon" class="fas fa-search"></i>
+          <input id="search-input" placeholder="Search"> 
+      </form>
+  </div>
+<!--Search Bar div end-->
+
+         <!--Notification Bell div-->
+         <div id="notifications">
+          <i class="fas fa-bell"></i>
+      </div>
+      <!--Notification Bell div end-->
+
+      <!--User Image div-->
+      <div id="user">
+          <img src="user.jpg">
+      </div>
+     </div>
+      <!--User Image div end-->
+ </nav>
+  <!--End of navigation bar section-->
+
+
+    <!--Main Section-->
+    <main>
+    	<!--Artist Template-->
+    	<div id="artist-template">
+    		<div id="artist-image">
+    		</div><!--Artist Details
+      >--><div id="artist-details">
+      	     <!--Artist Title-->
+      	     <div id="artist-title">
+      	     	<div>
+      	     	   <b>A R Rahman</b>
+      	     	   <br/>
+      	     	   <artist-type>Indain Artist</artist-type>
+      	         </div>
+      	     	<followers>24.3M followers</followers>
+      	      </div>
+              <!--End of Artist Title-->
+              <!--Artist Intro-->
+      	     <div id="artist-intro">
+              A.R Rahman is an Indian music composer, record producer, singer and songwriter, popular for his works in Indian cinema; predominantly in Tamil and Hindi films, with occasional forays in international cinema. He is a winner of six National Film Awards, two Academy Awards, two Grammy Awards, a BAFTA Award, a Golden Globe Award, fifteen Filmfare Awards and seventeen Filmfare Awards South. In 2010, the Indian government conferred him with the Padma Bhushan, the nation's third-highest civilian award.
+      	     </div>
+      	     <!--End of Artist Intro-->
+      	     <!--Miscellaneous Buttons-->
+      	      <div id="artist-buttons">
+      	 	<div id="playall-button">
+      	 		Play All
+      	 	</div>
+      	 	<div id="follow-button">
+      	 		Follow
+      	 	</div>
+      	 </div>
+      	 <div id="tracks">
+      	 	284 Tracks | 20 Albums
+      	 </div>
+      	 <!--End of miscellaeous buttons-->
+      	 </div>
+         <!--End of artist details-->
+    	</div>
+    	<!--End of artist template-->
+
+    	<!--Begining of artist songs-->
+    	<div id="artist-songs">
+    		<!--Song 1-->
+    		<div id="song">
+    			<div id="song-number">
+    			    01
+    			    <img src="album1.jpg" alt="album image">
+    			    <div id="song-details">
+    			    	Roja
+    			    	<br/>
+    			    	<author>A R Rahman</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    				<i class="fas fa-plus"></i>
+    			</div>
+    		</div>
+    		<!--End of Song 1-->
+    		<!--Song 2-->
+    		<div id="song">
+    			<div id="song-number">
+    			    02
+    			    <img src="album2.jpg" alt="album image">
+    			    <div id="song-details">
+    			    	Param Sundari
+    			    	<br/>
+    			    	<author>A R Rahman</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    				<i class="fas fa-plus"></i>
+    			</div>
+    		</div>
+    		<!--End of Song 2-->
+    		<!--Song 3-->
+    		<div id="song">
+    			<div id="song-number">
+    			    03
+    			    <img src="album3.jpg" alt="album image">
+    			    <div id="song-details">
+    			    	Newyork Nagaram
+    			    	<br/>
+    			    	<author>A R Rahman</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    				<i class="fas fa-plus"></i>
+    			</div>
+    		</div>
+    		<!--End of Song 3-->
+    		<!--Song 4-->
+    		<div id="song">
+    			<div id="song-number">
+    			    04
+    			    <img src="album4.jpg" alt="album image">
+    			    <div id="song-details">
+    			    Jashn-e-bahara
+    			    	<br/>
+    			    	<author>A R Rahman</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    				<i class="fas fa-plus"></i>
+    			</div>
+    		</div>
+    		<!--End of Song 4-->
+    		<!--Song 5-->
+    		<div id="song">
+    			<div id="song-number">
+    			    05
+    			    <img src="album5.jpg" alt="album image">
+    			    <div id="song-details">
+    			    	Enna Sona
+    			    	<br/>
+    			    	<author>A R Rahman</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    				<i class="fas fa-plus"></i>
+    			</div>
+    		</div>
+    		<!--End of Song 5-->
+    		<!--Song 6-->
+    		<div id="song">
+    			<div id="song-number">
+    			    06
+    			    <img src="album6.jpg" alt="album image">
+    			    <div id="song-details">
+    			    	Nuvvu Leka
+    			    	<br/>
+    			    	<author>A R Rahman</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    				<i class="fas fa-plus"></i>
+    			</div>
+    		</div>
+    		<!--End of Song 6-->
+    		
+    </main>
+    <!--End of main section-->
+    
+    <!--Begining of Aside Section-->
+    <aside>
+    	<div id="aside-header-1">
+    		Similar Artists
+    		<x>View All</x>
+    	</div>
+        <!--Similar artist-->
+    	<div id="similar-artist">
+    		<div id="artist-img"></div>
+    		<div id="song-details">
+    			Shreya Ghoshal
+    			<br/>
+    	    <author>Indian Artist</author>
+    	    </div>
+    	    <i class="fas fa-ellipsis-h"></i>
+    	</div>
+
+    	<div id="similar-artist">
+    		<div id="artist-img"></div>
+    		<div id="song-details">
+    			Shreya Ghoshal
+    			<br/>
+    	    <author>Indian Artist</author>
+    	    </div>
+    	    <i class="fas fa-ellipsis-h"></i>
+    	</div>
+
+    	<div id="similar-artist">
+    		<div id="artist-img"></div>
+    		<div id="song-details">
+    			Shreya Ghoshal
+    			<br/>
+    	    <author>Indian Artist</author>
+    	    </div>
+    	    <i class="fas fa-ellipsis-h"></i>
+    	</div>
+        <!--End of Similar artist-->
+    	<div id="aside-header-2">
+    		Recently Played
+    		<x>View All</x>
+    	</div>
+        <!--Recently Played Songs-->
+        <!--Song 1-->
+    	<div id="song">
+    			<div id="song-number">
+    			    01
+    			    <img src="album2.jpg" alt="album image">
+    			    <div id="song-details">
+    			    	Param Sundari
+    			    	<br/>
+    			    	<author>A R Rahman</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    			</div>
+    		</div>
+    		<!--ENd of song 1-->
+    		<!--Song 2-->
+    		<div id="song">
+    			<div id="song-number">
+    			    02
+    			    <img src="album4.jpg" alt="album image">
+    			    <div id="song-details">
+    			    	Jashn-e-bahara
+    			    	<br/>
+    			    	<author>A R Rahman</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    			</div>
+    		</div>
+    		<!--End of song 2-->
+    		<!--Song 3-->
+    		<div id="song">
+    			<div id="song-number">
+    			    03
+    			    <img src="album3.jpg" alt="album image">
+    			    <div id="song-details">
+    			    	Newyork Nagaram
+    			    	<br/>
+    			    	<author>A R Rahman</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    			</div>
+    		</div>
+    		<!--End of song 3-->
+    		<!--Song 4-->
+    		<div id="song">
+    			<div id="song-number">
+    			    04
+    			    <img src="album1.jpg" alt="album image">
+    			    <div id="song-details">
+    			   Roja
+    			    	<br/>
+    			    	<author>A R Rahman</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    			</div>
+    		</div>
+    		<!--End of song 4-->
+    		<!--Song 5-->
+    		<div id="song">
+    			<div id="song-number">
+    			    05
+    			    <img src="album5.jpg" alt="album image">
+    			    <div id="song-details">
+    			    Enna Sona
+    			    	<br/>
+    			    	<author>A R Rahman</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    			</div>
+    		</div>
+    		<!--End of song 5-->
+    		<!--End of recently played songs-->
+    </aside>
+    <!--End of aside-->
+
+    <!--Begining of footer section-->
+    <footer>
+      <div class="active-song-description">
+          <!-- song image -->
+          <div id="song-image">
+              <img src="musicbar.jpg">
+          </div>
+          <!-- song name and author -->
+          <div class="song-desc">
+              <div>
+                  Kumkumala
+              </div>
+              <div>
+                  Sid Sriram
+              </div>
+              <!-- heart icon and ban icon -->
+          </div>
+          <div class="heart-and-ban-icon">
+              <span>
+                  <i class="far fa-heart"></i>
+              </span>
+              <span>
+                  <i class="fas fa-ban"></i>
+              </span>
+          </div>
+      </div>
+      <!--main player controls -->
+      <div class="player">
+          <div class="controls">
+              <div><i class="fas fa-random"></i></div>
+              <div><i class="fas fa-step-backward"></i></div>
+              <div><i class="fas fa-pause-circle"></i></div>
+              <div><i class="fas fa-step-forward"></i></div>
+              <div><i class="fas fa-redo"></i></div>
+          </div>
+          <!--  slider -->
+          <div id="slider">
+              <!-- current time -->
+              <div class="time">
+                  0:52
+              </div>
+              <div class="slidecontainer">
+                  <input type="range" min="0" max="100" value="0" class="slider" id="myRange">
+              </div>
+              <!-- total time -->
+              <div class="time">
+                  5:56
+              </div>
+          </div>
+      </div>
+      <!-- other icons including the volume slider and all -->
+      <div class="extras">
+          <div>
+              <i class="fas fa-list-ul"></i>
+          </div>
+          <div>
+              <i class="fas fa-laptop"></i>
+          </div>
+          <div>
+              <i class="fas fa-volume-up"></i>
+          </div>
+          <div class="slidecontainer" style="width:30%;">
+              <input type="range" min="0" max="100" value="0" class="slider" id="myRange" style="margin-top:0px;">
+          </div>
+          <div>
+              <i class="fas fa-expand-alt"></i>
+          </div>
+      </div>
+  </footer>
+   <!--End of footer section-->
+  </head>
+
+  <body>
+    
+
+  <script src="script.js"></script>
+</html>
